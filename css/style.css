@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Global divs*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pic {
+    float: left;
+    width: 15%;
+    min-width: 10%;
+}
+
+.des{
+    float: right;
+    width: 83%;
+}
+
+hr {
+    height: 4px;
+    color: grey;
+}
+
+/* Header */
+header {
+    background: #e8e8e8;
+    padding-top: 30px;
+    min-height: 50px;
+    border-bottom: grey 2px solid;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+header li { 
+    float: left;
+    margin: 20px 40px 0 40px;
+
+}
+
+header #logo {
+    color: #312ec0;
+    float: left;
+    width: 20%;
+    
+}
+
+header #logo h1{
+    margin: 10px;
+    font-weight: bold;
+}
+
+header #right {
+    float: right;
+    width: 80%;
+}
+
+header nav {
+    float: left;
+}
+
+.signUp {
+    float: right;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+header #signUpImg {
+    margin: 0 0 0 35px;
+    padding: 0;
+    width: 60px;
+    
+    
+}
+
+/* valodation */
+main div img {
+    margin: 10px;
+    border: #312ec0 2px solid;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* sign up form */
+#main{
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+    width: 100%;
+}
+}
+
+/* city */
+#paragraphs {
+    float: left;
+    width: 60%;
+}
+#main-col {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+figure {
+    padding: 4px;
+    margin: auto;
+    float: right;
+    width: 30%;
+}
+
+figcaption {
+    background-color: grey;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    align-self: center;
+}
+
+/* Footer */
+footer {
+    padding-top: 10px;
+    background-color: #e8e8e8;
+    border-top: grey 2px solid;
+    text-align: center;
+    height: 70px;
+}
+
