@@ -559,14 +559,14 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background: #030303c7;
+    background: #332330;
     background-size: 400px;
     background-position: center;
 }
 
 .footer-menu {
     display: flex;
-    box-shadow: 2px 5px 30px rgba(250, 209, 255, 0.116);
+    box-shadow: 2px 5px 30px rgba(250, 209, 255, 0.151);
     background-color: #dadada;
     border-radius: 50px;
     justify-content: center;
@@ -757,4 +757,242 @@ footer {
     padding-left: 10px;
     height: 60%;
     border-radius: 20px;
+}
+
+/* Mohammed */
+.sign-in-page {
+    width: 340px;
+    height: 430px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.cart {
+    width: 1000px;
+    height: 560px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    left: 32%;
+    top: 47%;
+    padding: 16px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.cart-summary {
+    width: 300px;
+    height: 360px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    left: 70%;
+    top: 340px;
+    padding: 16px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: hidden;
+    float: right;
+}
+
+.cart-item {
+    margin-bottom: 150px;
+}
+.cart-price {
+    margin-left: 90%;
+}
+
+.p-name {
+    float: left;
+}
+.cart img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}
+
+.product-page {
+    width: 1000px;
+    height: 500px;
+    padding: 40px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.product-page img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+.product-price {
+    width: 300px;
+    height: 360px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    left: 70%;
+    top: 430px;
+    padding: 16px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: hidden;
+    float: right;
+}
+
+.track {
+    width: 700px;
+    height: 450px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 16px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.my-orders {
+    width: 700px;
+    height: 600px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 16px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.order-table table,
+.order-table th,
+.order-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.my-profile {
+    width: 700px;
+    height: 500px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 16px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.profile-table table,
+.profile-table th,
+.profile-table td {
+    padding: 5px;
+}
+
+.my-addresses {
+    width: 700px;
+    height: 700px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 16px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.addresses-table table,
+.addresses-table th {
+    padding: 5px;
+}
+
+.addresses-table td {
+    padding-left: 30px;
+}
+
+.manage-users {
+    width: 700px;
+    height: 450px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 16px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.user-table table,
+.user-table th,
+.user-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.about {
+    width: 1200px;
+    height: 450px;
+    box-shadow: 6px 6px 30px #d1d9e6;
+    background-color: #fff2fd;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 16px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
 }
